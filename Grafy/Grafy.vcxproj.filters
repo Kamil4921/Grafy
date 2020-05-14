@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graf">
+      <UniqueIdentifier>{d3eca241-5294-4932-a1e8-6a4f77709543}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Graf\Djikstra\Djikstra.cpp" />
+    <ClCompile Include="Graf\Krawedzie\Krawedzie.cpp" />
+    <ClCompile Include="Graf\Krawedzie\Lista\lista.cpp" />
+    <ClCompile Include="Graf\Krawedzie\Macierz\Macierz.cpp" />
+    <ClCompile Include="Testy\Test.cpp" />
+    <ClCompile Include="Graf\Graf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graf\Djikstra\Djikstra.h" />
+    <ClInclude Include="Graf\Krawedzie\Krawedzie.h" />
+    <ClInclude Include="Graf\Krawedzie\Lista\lista.h" />
+    <ClInclude Include="Graf\Krawedzie\Macierz\Macierz.h" />
+    <ClInclude Include="Testy\Test.h" />
+    <ClInclude Include="Graf\Graf.h" />
+  </ItemGroup>
+</Project>
